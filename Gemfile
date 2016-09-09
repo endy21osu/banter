@@ -5,11 +5,18 @@ gem 'rails', '4.2.5.1'
 
 gem 'rails-api'
 
-gem 'mongoid', '~> 4.0.2'
+# gem 'mongoid', '~> 5.1.0'
+
+# gem 'sqlite3'
+
+gem 'mongoid', github: 'mongoid/mongoid'
+gem 'bson_ext'
+
+gem 'rspec-rails'
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 
-gem 'spring', :group => :development
+# gem 'spring', :group => :development
 
 gem 'pg'
 
